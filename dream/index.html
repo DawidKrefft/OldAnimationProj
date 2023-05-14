@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animation Fun</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body data-barba="wrapper">
+  <header class="nav-header">
+    <h1><a href="../index.html" id="logo">DK</a></h1>
+    <div class="menu">
+      <div class="line1"></div>
+      <div class="line2"></div>
+    </div>
+  </header>
+  <main data-barba="container" data-barba-namespace="dream">
+    <section class="nothing-page detail-slide">
+      <div class="dream-text">
+        <h1 class="nothing-blue">Nothing Here</h1>
+        <p>
+          Just wanted to show You this magnificent animation. Every button does same thing.
+        </p>
+        <div class="center-items">
+          <a href="../index.html" class="experience experience-nothing">Go Back</a>
+        </div>
+      </div>
+      <div class="dream-img">
+        <img src="../img/spaceman.jpg" alt="" class="img-border" />
+      </div>
+    </section>
+
+
+  </main>
+  <nav class="nav-bar">
+    <ul class="nav-img">
+      <div class="hero-img">
+        <img src="../img/nav.jpg" alt="dream image" />
+
+      </div>
+    </ul>
+    <div class="genesis">
+      <h2>Genesis</h2>
+      <p>
+        Briefly after learning some basics of JavaScript, I wanted to create some poor version of Awwwards sites. So I
+        read on reddit, that my best shots as a newbie were GSAP and ScrollMagic. The effects used on this website were
+        well explained on some other sites, so I haven't reinvented the wheel. Documentations were also very helpful.
+      </p>
+    </div>
+  </nav>
+  <div class="cursor">
+    <span class="cursor-text"></span>
+  </div>
+  <div class="swipe swipe1"></div>
+  <div class="swipe swipe2"></div>
+  <div class="swipe swipe3"></div>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+    integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+    integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+    integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+    integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=" crossorigin="anonymous"></script>
+  <script src="../app.js"></script>
+</body>
+
+</html>

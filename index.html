@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animation Fun</title>
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body data-barba="wrapper">
+  <header class="nav-header">
+    <h1><a href="./index.html" id="logo">DK</a></h1>
+    <div class="menu">
+      <div class="line1"></div>
+      <div class="line2"></div>
+    </div>
+  </header>
+  <main data-barba="container" data-barba-namespace="home">
+    <section class="boy slide">
+      <div class="hero-img">
+        <img src="./img/fantasy.jpg" alt="forest image" />
+        <div class="reveal-img"></div>
+      </div>
+      <div class="hero-desc">
+        <div class="title">
+          <h2>
+            Have You met a <span class="boy-span">boy</span>
+          </h2>
+          <div class=" title-swipe t-swipe1">
+          </div>
+        </div>
+        <p>
+          a boy a boy a boy a boy a boy a boy a boy a boy a boy a boy a boy a boy a boy a boy a boy a boy a boy a boy a
+          boy a boy a boy a boy a boy a boy a boy a boy a boy
+
+        </p>
+        <a class="experience boy-exp" href="./dream/index.html">Experience</a>
+        <div class="reveal-text"></div>
+      </div>
+    </section>
+    <section class="slide">
+
+      <div class="hero-desc">
+        <div class="title">
+          <h2>Who loved <span class="sleep-span">sleeping.</span></h2>
+          <div class="title-swipe t-swipe2"></div>
+        </div>
+        <p>
+          sleeping sleeping sleeping sleeping sleeping sleeping sleeping sleeping sleeping sleeping sleeping sleeping
+          sleeping sleeping sleeping sleeping sleeping sleeping
+        </p>
+        <a class="experience" href="./dream/index.html">Experience</a>
+        <div class="reveal-text"></div>
+      </div>
+      <div class="hero-img">
+        <img src="./img/sleeping.png" alt="sleeping boy image" />
+        <div class="reveal-img"></div>
+      </div>
+    </section>
+    <section class="dream slide">
+      <div class="hero-img">
+        <img src="./img/dreaming.jpg" alt="person chilling and dreaming in the dark" />
+        <div class="reveal-img"></div>
+      </div>
+      <div class="hero-desc">
+        <div class="title">
+          <h2>
+            And dreaming <span class="dream-span">about a job.</span>
+          </h2>
+          <div class="title-swipe t-swipe3"></div>
+        </div>
+        <p>
+          about a job about a job about a job about a job about a job about a job about a job about a job about a job
+          about a job about a job about a job about a job
+        </p>
+        <a href="./dream/index.html" class="experience dream-exp">Experience</a>
+        <div class="reveal-text"></div>
+      </div>
+    </section>
+  </main>
+  <nav class="nav-bar">
+    <div class="nav-img">
+      <div class="hero-img">
+        <img src="./img/nav.jpg" alt="dream image" />
+
+      </div>
+    </div>
+    <div class="genesis">
+      <h2>Genesis</h2>
+      <p>
+        Briefly after learning some basics of JavaScript, I wanted to create a poor version of Awwwards site. So I
+        had done my reaserch and tried GSAP with ScrollMagic.
+      </p>
+    </div>
+  </nav>
+  <div class="cursor">
+    <span class="cursor-text"></span>
+  </div>
+  <div class="swipe swipe1"></div>
+  <div class="swipe swipe2"></div>
+  <div class="swipe swipe3"></div>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+    integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+    integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+    integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+    integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw=" crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
